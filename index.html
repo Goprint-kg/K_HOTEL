@@ -15,6 +15,38 @@
     }
   </style>
 
+  <style>
+  body {
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .card {
+    width: 300px;
+    padding: 30px;
+    background: white;
+    color: black;
+    font-family: "Times New Roman", serif;
+    text-align: center;
+    font-size: 20px;
+
+    /* вогнутые круглые углы */
+    -webkit-clip-path: path("M20,0 H280 A20,20 0 0 1 300,20 V280 A20,20 0 0 1 280,300 H20 A20,20 0 0 1 0,280 V20 A20,20 0 0 1 20,0 Z");
+    clip-path: path("M20,0 H280 A20,20 0 0 1 300,20 V280 A20,20 0 0 1 280,300 H20 A20,20 0 0 1 0,280 V20 A20,20 0 0 1 20,0 Z");
+  }
+</style>
+</head>
+<body>
+  <div class="card">
+    <h2>K HOTEL</h2>
+    <p>Добро пожаловать!</p>
+  </div>
+</body>
+
+  
 <body>  
   <div style="display: flex; flex-direction: column; align-items: center; gap: 10px; ">
 
