@@ -50,22 +50,6 @@
          style="position: absolute; left: 12px; width: 44px;">
     Instagram
   </a>
-<button onclick="connectWifi()">Подключиться к Wi-Fi</button>
-
-<script>
-async function connectWifi() {
-  try {
-    await navigator.wifi.connect({
-      ssid: "HotelSunrise",
-      password: "Sun12345",
-      security: "WPA2"
-    });
-    alert("Вы подключены к Wi-Fi!");
-  } catch (e) {
-    alert("Не удалось подключиться: " + e.message);
-  }
-}
-</script>
 
 </div>
     
